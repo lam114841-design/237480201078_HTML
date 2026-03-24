@@ -28,6 +28,5 @@ WHERE makh = 'K010';
 
 
 cau7:
-SELECT *
-FROM tonkho
+SELECT * FROM hanghoa
 WHERE mansx = 'DELL';
