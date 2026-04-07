@@ -1,13 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Bài 5B</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-<script language="JavaScript">
-    var D = new Date();
-    document.write("Ngày: " + D.getDate() + "<br>");
-    document.write("Tháng: " + (D.getMonth() + 1) + "<br>");
-    document.write("Năm: " + D.getFullYear());
-</script>
+    <script language = "JavaScript">
+        var D = new Date();
+        var NamSinh, NamHienTai;
+        NamHienTai = D.getFullYear();
+        NamSinh = prompt("Nhập vào năm sinh của bạn: ","");
+        alert("Tuổi của bạn là: " + (NamHienTai - NamSinh));
+    </script>
 </body>
 </html>
